@@ -1,4 +1,4 @@
-# 🩺 Breast Cancer Detection & Classification
+#  Breast Cancer Detection & Classification
 
 A machine learning project that compares **Random Forest** and **Gradient Boosting** classifiers to predict whether a breast tumor is Malignant (M) or Benign (B), achieving up to **99% accuracy**.
 
@@ -6,13 +6,13 @@ A machine learning project that compares **Random Forest** and **Gradient Boosti
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Breast cancer is one of the most common cancers worldwide. Early and accurate detection significantly improves survival rates. This project applies supervised machine learning to classify tumors based on 30 cell nucleus measurements — enabling faster and more reliable initial screening support.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** Wisconsin Breast Cancer Dataset (UCI Machine Learning Repository)
 - **Size:** 569 samples, 30 input features
@@ -24,7 +24,7 @@ Breast cancer is one of the most common cancers worldwide. Early and accurate de
 
 ---
 
-## 🤖 Models Compared
+##  Models Compared
 
 ### Model 1 — Random Forest Classifier
 
@@ -34,7 +34,7 @@ Breast cancer is one of the most common cancers worldwide. Early and accurate de
 | Benign (B) | 0.83 | 0.88 | 0.85 |
 | **Overall Accuracy** | | | **85%** |
 
-### Model 2 — Gradient Boosting Classifier ✅ Best Model
+### Model 2 — Gradient Boosting Classifier Best Model
 
 | Class | Precision | Recall | F1-Score |
 |-------|-----------|--------|----------|
@@ -46,7 +46,7 @@ Breast cancer is one of the most common cancers worldwide. Early and accurate de
 
 ---
 
-## 🔬 Approach
+##  Approach
 
 | Step | Details |
 |------|---------|
@@ -60,13 +60,13 @@ Breast cancer is one of the most common cancers worldwide. Early and accurate de
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 `Python` · `Pandas` · `Scikit-learn` · `Matplotlib` · `Jupyter Notebook`
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # Clone the repo
@@ -84,7 +84,7 @@ Or open directly in Google Colab using the badge above.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 breast_cancer_detection_classification/
@@ -96,7 +96,7 @@ breast_cancer_detection_classification/
 
 ---
 
-## 💡 What I Learned
+##  What I Learned
 
 - **Gradient Boosting significantly outperforms Random Forest** on this dataset (99% vs 85%) — demonstrating how boosting iteratively corrects errors for complex medical data
 - **Recall is the key metric** in cancer detection — a false negative (missing a malignant tumor) is far more dangerous than a false positive
