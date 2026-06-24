@@ -108,4 +108,5 @@ breast_cancer_detection_classification/
 ## 👩‍💻 Author
 
 **Fazna Kozhipparambil** — Data Science & Machine Learning  
-[GitHub](https://github.com/Fazna-kozhipparambil) ·
+[GitHub](https://github.com/Fazna-kozhipparambil)
+
